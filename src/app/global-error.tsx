@@ -5,13 +5,13 @@ import React from 'react';
 export interface GlobalErrorProps {}
 
 export default function GlobalError({}: GlobalErrorProps) {
-    return (
-        <html>
-        <body>
+  return (
+    <html>
+      <body>
         <div>
-            <p>Something globally went wrong</p>
+          <p>Something globally went wrong</p>
         </div>
-        </body>
-        </html>
-    );
+      </body>
+    </html>
+  );
 }
